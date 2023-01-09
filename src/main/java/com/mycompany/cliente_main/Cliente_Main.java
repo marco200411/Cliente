@@ -33,6 +33,7 @@ public class Cliente_Main {
                 nifEliminar = leer2.nextLine();
                 BBDD1.eliminarCliente(nifEliminar);
                 System.out.println("Hola mundo");
+                System.out.println("");
             }
 
         } while (respuesta != 0);
